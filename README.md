@@ -21,9 +21,16 @@ This project demonstrates pose estimation, action classification, and cloud depl
 
 ### FastAPI Swagger UI
 
-Here’s a screenshot of the API documentation page:
+1. Here’s a screenshot of the API documentation page:
 
 ![FastAPI Swagger UI](assets/fast_api_swagger_ui.png)
+
+### 2. Dance Video Analysis Output
+2. Check out the dance analysis output
+   
+![Dance Analysis Output](assets/Dance_analysis.png)
+
+---
 
 ## Endpoints
 
