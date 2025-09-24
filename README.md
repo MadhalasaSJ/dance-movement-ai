@@ -23,7 +23,7 @@ This project demonstrates pose estimation, action classification, and cloud depl
 
 Here’s a screenshot of the API documentation page:
 
-![FastAPI Swagger UI](assets/fastapi_screenshot.png)
+![FastAPI Swagger UI](assets/fast_api_swagger_ui.png)
 
 ## Endpoints
 
