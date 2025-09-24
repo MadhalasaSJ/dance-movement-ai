@@ -129,8 +129,13 @@ dance-movement-ai/
 
 ### Deployment
 
-- Deployable on AWS EC2 / GCP Compute Engine / VPS :
-**Access API at:** 
-```bash
-http://<server-ip>:8000/docs
-```
+#### Live Demo
+
+The project is deployed on AWS EC2 and accessible here:
+
+[FastAPI Swagger UI](http://13.203.202.240:8000/docs)
+
+You can upload a short dance video and get:
+- An annotated video with pose landmarks.
+- A JSON summary of detected poses.
+
