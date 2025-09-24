@@ -5,7 +5,7 @@ This project demonstrates pose estimation, action classification, and cloud depl
 
 ---
 
-## 🎯 Features
+## Features
 
 - Upload a **dance video** and receive:
   - Per-frame pose landmarks
@@ -19,7 +19,7 @@ This project demonstrates pose estimation, action classification, and cloud depl
 
 ---
 
-## 📡 Endpoints
+## Endpoints
 
 ### `POST /analyze`
 Upload a video file for analysis.
@@ -54,18 +54,17 @@ Upload a video file for analysis.
     }
   ]
 }
-
-GET /
-
+```
+### GET /
 Health check endpoint.
 
-Response:
-
+**Response:**
+```json
 { "message": "Dance Pose Analysis API is running!" }
 ```
 
 ### Usage
-🔹 Local Development
+Local Development
 
  - Install dependencies:
    ```bash
@@ -81,7 +80,7 @@ uvicorn app.main:app --reload
 
 - Open http://localhost:8000/docs in your browser.
 
-🔹 Docker
+### Docker
 
 - Build the Docker image:
   ```bash
@@ -101,15 +100,25 @@ uvicorn app.main:app --reload
 
 ### Project Structure
 dance-movement-ai/
+
 ├── app/
+
 │   ├── main.py        # FastAPI API
+
 │   ├── analysis.py    # Pose detection & JSON summary
+
 │   ├── utils.py       # Helper functions (e.g., angle calculation)
+
 │   └── tests/         # Unit tests
-├── uploads/           # Uploaded videos (gitignored)
-├── outputs/           # Annotated videos & JSON results (gitignored)
+
+├── uploads/           # Uploaded videos 
+
+├── outputs/           # Annotated videos & JSON results 
+
 ├── requirements.txt
+
 ├── Dockerfile
+
 └── README.md
 
 ### Requirements
