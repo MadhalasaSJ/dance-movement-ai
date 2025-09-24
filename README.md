@@ -99,6 +99,7 @@ uvicorn app.main:app --reload
 
 
 ### Project Structure
+```bash
 dance-movement-ai/
 
 ├── app/
@@ -120,6 +121,7 @@ dance-movement-ai/
 ├── Dockerfile
 
 └── README.md
+```
 
 ### Requirements
 
