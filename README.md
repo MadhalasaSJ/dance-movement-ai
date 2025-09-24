@@ -26,6 +26,7 @@ Here’s a screenshot of the API documentation page:
 ![FastAPI Swagger UI](assets/fast_api_swagger_ui.png)
 
 ### Dance Video Analysis Output
+
 Check out the dance analysis output
    
 ![Dance Analysis Output](assets/Dance_analysis.png)
