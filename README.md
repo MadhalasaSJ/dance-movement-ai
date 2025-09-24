@@ -135,7 +135,7 @@ dance-movement-ai/
 
 The project is deployed on AWS EC2 and accessible here:
 
-[FastAPI Swagger UI](http://13.203.202.240:8000/docs)
+[FastAPI Swagger UI](http://13.203.15.21:8000/docs)
 
 You can upload a short dance video and get:
 - An annotated video with pose landmarks.
